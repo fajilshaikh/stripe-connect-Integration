@@ -1,0 +1,22 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+
+# Node / Vite
+node_modules/
+client/dist/
+
+# Runtime logs
+API/logs/
+*.log
+
+# Local secrets / env-specific config (use `dotnet user-secrets` for Stripe keys)
+appsettings.Development.json
+appsettings.*.local.json
+.env
+.env.*
